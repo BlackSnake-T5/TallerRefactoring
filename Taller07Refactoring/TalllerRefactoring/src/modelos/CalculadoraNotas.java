@@ -2,7 +2,7 @@ package modelos;
 
 import java.util.ArrayList;
 
-public class CalculoraNotas{
+public class CalculadoraNotas{
 
     public double CalcularNota(Paralelo p, double nexamen,double ndeberes, double nlecciones, double ntalleres){
         double nota=0;

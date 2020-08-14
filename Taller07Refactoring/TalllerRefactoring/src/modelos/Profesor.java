@@ -2,7 +2,7 @@ package modelos;
 
 import java.util.ArrayList;
 
-public class Profesor {
+public class Profesor extends Persona{
     public String codigo;
     public String nombre;
     public String apellido;

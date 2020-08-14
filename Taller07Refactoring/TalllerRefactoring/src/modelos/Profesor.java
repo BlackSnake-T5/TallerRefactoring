@@ -4,11 +4,6 @@ import java.util.ArrayList;
 
 public class Profesor extends Persona{
     public String codigo;
-    public String nombre;
-    public String apellido;
-    public int edad;
-    public String direccion;
-    public String telefono;
     public InformacionAdicionalProfesor info;
     public ArrayList<Paralelo> paralelos;
 

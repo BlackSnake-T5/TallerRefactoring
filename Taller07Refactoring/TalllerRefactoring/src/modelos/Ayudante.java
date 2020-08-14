@@ -6,8 +6,9 @@ public class Ayudante extends Estudiante{
     protected Estudiante est;
     public ArrayList<Paralelo> paralelosA;
 
-    Ayudante(Estudiante e){
-    	est = e;
+    Ayudante(String matricula, String facultad, String nombre, String apellido, int edad, String direccion, String telefono) {
+        super( matricula, facultad, nombre, apellido,  edad, direccion,telefono);
+
     }
         
     public void agregarParalelo(Paralelo p){

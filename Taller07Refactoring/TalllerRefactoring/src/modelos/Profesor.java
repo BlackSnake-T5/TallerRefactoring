@@ -23,3 +23,8 @@ public class Profesor extends Persona{
         return sueldo;
     }  
 }
+        double sueldo=0;
+        sueldo= info.a�osdeTrabajo*600 + info.BonoFijo;
+        return sueldo;
+    }
+}

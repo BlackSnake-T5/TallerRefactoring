@@ -2,9 +2,13 @@ package modelos;
 
 import java.util.ArrayList;
 
-public class CalculadoraNotas{
+public class Notas{
+    private double nexamen;
+    private double ndeberes; 
+    private double nlecciones; 
+    private double ntalleres;
 
-    public double CalcularNota(Paralelo p, double nexamen,double ndeberes, double nlecciones, double ntalleres){
+    public double CalcularNota(Paralelo p){
         double nota=0;
         for(Paralelo par:paralelos){
             if(p.equals(par)){

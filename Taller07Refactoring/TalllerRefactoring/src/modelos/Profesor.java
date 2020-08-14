@@ -13,12 +13,8 @@ public class Profesor {
     public ArrayList<Paralelo> paralelos;
 
     public Profesor(String codigo, String nombre, String apellido, String facultad, int edad, String direccion, String telefono) {
+        super(nombre,apellido,direccion,edad,telefono);
         this.codigo = codigo;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.edad = edad;
-        this.direccion = direccion;
-        this.telefono = telefono;
         paralelos= new ArrayList<>();
     }
     

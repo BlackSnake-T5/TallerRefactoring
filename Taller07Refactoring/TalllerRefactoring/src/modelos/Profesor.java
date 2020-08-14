@@ -19,12 +19,8 @@ public class Profesor extends Persona{
     }
     
     public double calcularSueldo(){
-        double sueldo = info.añosdeTrabajo*600 + info.BonoFijo;
+        double sueldo = info.aniosdeTrabajo*600 + info.BonoFijo;
         return sueldo;
     }  
 }
-        double sueldo=0;
-        sueldo= info.a�osdeTrabajo*600 + info.BonoFijo;
-        return sueldo;
-    }
-}
+        

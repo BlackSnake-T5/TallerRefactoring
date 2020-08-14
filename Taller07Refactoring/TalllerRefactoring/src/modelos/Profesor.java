@@ -18,5 +18,8 @@ public class Profesor extends Persona{
         paralelos.add(p);
     }
     
-    
+    public double calcularSueldo(){
+        double sueldo = info.añosdeTrabajo*600 + info.BonoFijo;
+        return sueldo;
+    }  
 }

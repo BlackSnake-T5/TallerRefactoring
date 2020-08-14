@@ -29,4 +29,13 @@ public class Estudiante extends Persona{
     public void setFacultad(String facultad) {
         this.facultad = facultad;
     }
+    public double getNotaTotal(Paralelo par){
+        for(Paralelo p: paralelos){
+            if(p.equals(par)){
+                Materia mat= p.getMateria();
+                return mat.getNotaTotal();
+            }
+        }
+        return -1;
+    }
 }

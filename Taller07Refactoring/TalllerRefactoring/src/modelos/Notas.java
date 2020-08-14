@@ -7,17 +7,18 @@ public class Notas{
     private double ndeberes; 
     private double nlecciones; 
     private double ntalleres;
-
+    public ArrayList<Paralelo> paralelos;
+    
     public double CalcularNota(Paralelo p){
         double nota=0;
         for(Paralelo par:paralelos){
             if(p.equals(par)){
                 double notaTeorico=(nexamen+ndeberes+nlecciones)*0.80;
                 double notaPractico=(ntalleres)*0.20;
-                notaInicial=notaTeorico+notaPractico;
+                nota=notaTeorico+notaPractico;
             }
         }
-        return notaInicial;
+        return nota;
     }
    
     
